@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/4f0d16bc6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="project3.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search_box">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button id="search_btn" class="search">
+          <img src="images/search.png" alt="" />
+        </button>
+      </div>
+      <div class="error">
+        <p>Invalid city Name</p>
+      </div>
+      <div class="weather">
+        <img class="weather_icon" src="images/rain.png" alt="" />
+        <br />
+        <br />
+        <h1 class="temp"></h1>
+        <br />
+        <h2 class="city"></h2>
+
+        <div class="details">
+          <div class="col">
+            <div class="first">
+              <img class="icon" src="images/humidity.png" alt="" />
+              <div class="text">
+                <br />
+                <p class="humidity">50%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+
+            <div class="second">
+              <img class="icon" src="images/storm.png" alt="" />
+              <div class="text">
+                <br />
+                <div class="Wind">17 Km/hr</div>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
